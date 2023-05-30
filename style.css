@@ -1,0 +1,423 @@
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    position: relative;
+}
+.nav-links {
+    flex: 2;
+}
+.nav-links ul li a {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+li {
+  display: inline;
+}
+
+.nav-links ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #030303;
+    display: block;
+    margin: auto;
+    transition: 0.75s;
+}
+
+.nav-links ul li a:hover:after {
+    width: 100%;
+}
+
+.text-box p {
+    color: white;
+}
+
+.my-btn {
+    display:inline-block;
+    text-decoration:none;
+    text-align: center;
+    color: #030303;
+    border: 1px solid #020202;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.my-btn:hover {
+    border: #fff;
+    background: #53b2df;
+    transition: 2s;
+}
+/*-----TURTLES IN SRI LANAK-----*/
+.TURTLES IN SRI LANAK {
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.div-bg{
+    background-image: url('./image/randall-ruiz-272502.jpg');
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.turtle-col{
+    background: #b7cbe2;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+ *{
+    box-sizing: border-box;
+}
+.they-col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.our-col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.our-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.our-col p{
+    padding: 0;
+}
+.our-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+/*-----call to action-----*/
+
+.you-col{
+    margin: 100px auto ;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7),url(image/image_9994_1e-Nanhsiungchelyid-Egg.jpg));
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    position: relative;
+}
+.nav-links {
+    flex: 2;
+}
+.nav-links ul li a {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #030303;
+    display: block;
+    margin: auto;
+    transition: 0.75s;
+}
+
+.nav-links ul li a:hover:after {
+    width: 100%;
+}
+
+.div-bg{
+    background-image: url('./image/randall-ruiz-272502.jpg');
+    width: 100%;
+    border-radius: 10px;
+}
+.text-box p {
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(30, 205, 236, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.world-col{
+    background: #b7cbe2;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.wrapper .button{
+
+    float: left;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+  }
+  .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #1d0ee9;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #181bd3;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
+  .pricing{
+    background-color: #4ed3eb;
+  }
+ 
+  .pricing .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 2rem;
+  }
+ 
+  .pricing .box-container .box{
+      background: #b7cbe2;
+      padding: 3rem;
+      text-align: center;
+      border-radius: 79% 51% 81% 19% / 58% 93% 7% 42%;
+  }
+ 
+  .pricing .box-container .box:hover{
+    border-radius: .1rem;
+}
+
+.pricing .box-container .box img{
+    height: 15.5rem;
+    width: 15.5rem;
+    margin-bottom: .5rem;
+}
+
+.pricing .box-container .box h3{
+    font-size: 2.6rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.pricing .box-container .box .price{
+    font-size: 2.2rem;
+    color: var(--main);
+    padding: -5rem 0;
+}
+
+.pricing .box-container .box p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: .5rem 0;
+}
+.btn{
+  font-size: 1.7rem;
+  display: inline-block;
+  background: blue;
+  color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 5rem;
+  padding: 0.9rem 3rem;
+  margin-top: 1rem;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.OTHER TURTLE HATCHERIES {
+  animation: fade-in 5s ease-in-out;
+}
