@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viwe point" ::content="with=device-width,initical-scale=1.0">
+  <title>TURTLES OF SRI LANKA</title>
+  <link rel="stylesheet" href="./newstyle.css">
+</head>
+
+
+
+
+<body>
+  
+  <div class="div-bg">
+    <nav>
+      <div class="nav-links" id="test">
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./secondpage.html">CATEGORIES</a></li>
+          <li><a href="./thirdpage.html">THREAT</a></li>
+          <li><a href="./fourthpage.html">HIKKADUWA HATCHERY</a></li>
+          <li><a href="./contact.html">OTHER HATCHERIES</a></li>
+          <li><a href="./PURCHASE AND DONATIONS.html">PURCHASE AND DONATIONS</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+      <div id="ticket_detail" class="cont">
+        <title>Date Selector</title>
+        </head>
+
+        <div class="cone">
+          <h1>Date Selector</h1>
+          <br>
+          <br>
+          <label for="appoinment_date">Date:</label>
+          <input onchange="changeAppinmentgDate()" type="date" id="appoinment_date" name="appoinment_date">
+
+          <div class="vax">
+            <div class="cos">
+              <h1>Book your tickets to Turtle World</h1>
+              <br><br>
+
+
+              <!-- Guests Section -->
+              <div class="section">
+                <h2>Guests</h2>
+                <table id="guestsTable">
+                  <!-- Table for ticket categories and quantities will be generated dynamically -->
+                </table>
+              </div>
+
+              <!-- Duration Section -->
+              <div class="section">
+                <h2>Duration</h2>
+                <select id="duration">
+                  <option value="07:00-08:00">07:00 am to 08:00 am</option>
+                  <option value="08:00-09:00">08:00 am to 09:00 am</option>
+                  <option value="09:00-10:00">09:00 am to 10:00 am</option>
+                  <option value="10:00-11:00">10:00 am to 11:00 am</option>
+                  <option value="11:00-12:00">11:00 am to 12:00 pm</option>
+                  <option value="12:00-13:00">12:00 pm to 01:00 pm</option>
+                  <option value="13:00-14:00">01:00 pm to 02:00 pm</option>
+                  <option value="14:00-15:00">02:00 pm to 03:00 pm</option>
+                  <option value="15:00-16:00">03:00 pm to 04:00 pm</option>
+                  <option value="16:00-17:00">04:00 pm to 05:00 pm</option>
+                  <option value="17:00-18:00">05:00 pm to 06:00 pm</option>
+                </select>
+              </div>
+
+       <div class="duckclass">
+              <!-- Summary Section -->
+              <div class="section">
+                <h2>Summary</h2>
+                <table id="summaryTable">
+                  <!-- Summary table will be dynamically generated -->
+                </table>
+              </div>
+
+              <!-- Continue with Purchase Button -->
+
+              <button type="button" id="ticDel" onclick="passticDelData()">Continue</button>
+       </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      
+      <script src="./form.js"></script>
+    </div>
+    </body>
+
+    </html>
